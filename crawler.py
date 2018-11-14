@@ -4,10 +4,10 @@ import html
 
 def get_twitter_user(username):
 
-    api = twitter.Api(consumer_key='qqyWrUQicjEmbSaKM7I4enicg',
-                      consumer_secret='l9mEz08T7jAPRMpjx3uOC9r5NTFwv486dfqrC86mlE4KUdsNld',
-                      access_token_key='845935402359799812-oxG2qO7b8BArh4svMUsjj93ptaymelK',
-                      access_token_secret='0nFvziZd84tvxmyYjEQsrRtxMWKNjPuihMyLkzmZi7aVF',
+    api = twitter.Api(consumer_key='consumer_key',
+                      consumer_secret='consumer_secret',
+                      access_token_key='access_token_key',
+                      access_token_secret='access_token_secret',
                   tweet_mode='extended')
 
     # print(api.VerifyCredentials())
